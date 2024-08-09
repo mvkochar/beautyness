@@ -50,7 +50,7 @@
     margin-top: 151px;
     margin-left: 360px;
     margin-right: 360px;
-} 
+}
 
 .home-features-item {
     width: 300px;
@@ -88,4 +88,193 @@
         text-transform: uppercase;
         color: #141414;
     }
+}
+
+.home-about {
+    margin-top: 150px;
+    padding: 150px 360px;
+    background-color: #EBF3F5;
+    box-shadow: 0px 37px 60px rgba(0, 0, 0, 0.02);
+}
+
+.home-about-title {
+    width: 435px;
+    margin-top: 9px;
+}
+
+.home-about-desc {
+    width: 529px;
+    margin-top: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    color: #555555;
+}
+
+.home-about-points {
+    margin-top: 37px;
+    gap: 10px;
+
+    .about-points-item {
+        width: 165px;
+        padding: 17px 33px 19px;
+        background-color: #FFFFFF;
+        border: 1px solid #1E2C30;
+        text-align: center;
+
+        .points-item-title {
+            margin-top: 14px;
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.2;
+            color: #141414;
+        }
+    }
+}
+
+.home-services {
+    margin-top: 146px;
+    margin-left: 360.9px;
+    margin-right: 361.1px;
+    background: url("/public/images/home-services-bg.png") no-repeat;
+    background-position-x: 54%;
+    background-position-y: 55%;
+
+    .service-content {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .service-content-bl {
+        padding-bottom: 22px;
+        border-bottom: 1px solid #9BB7BF;
+    }
+}
+
+.home-services-above {
+    text-align: center;
+}
+
+.home-services-title {
+    width: 756px;
+    margin: 9px auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home-services .service-title,
+.home-services .service-divider,
+.home-services .service-price {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #141414;
+}
+
+.home-services .service-divider {
+    font-weight: 400;
+    letter-spacing: .05em;
+}
+
+.home-services .service-from,
+.home-services .service-note {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: .02em;
+    color: #555555;
+}
+
+.home-services .service-price {
+    font-weight: 400;
+}
+
+.home-services .service-note {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.home-services-link {
+    display: block;
+    width: 249px;
+    margin-top: 35px;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    border: 2px solid #5C8692;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .12em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.home-testimonials {
+    margin-top: 145px;
+    padding: 147px 360px;
+    background-color: #EDF5F7;
+}
+
+.home-testimonials-above,
+.home-testimonials-title {
+    text-align: center;
+}
+
+.home-testimonials-title {
+    margin-top: 2px;
+}
+
+.home-testimonials-box {
+    margin-top: 40px;
+}
+
+.home-testimonials-item {
+    width: 582px;
+
+    .testimonials-item-text {
+        padding-top: 44px;
+        padding-bottom: 44px;
+        padding-left: 49px;
+        padding-right: 44px;
+        background-color: #fff;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 1.8;
+        color: #141414;
+    }
+
+    .testimonials-item-user {
+        padding-top: 26px;
+        padding-bottom: 25px;
+        padding-left: 51px;
+        padding-right: 50.99px;
+        background-color: #1E2C30;
+        color: #fff;
+    }
+
+    .testimonials-item-rating {
+        gap: 2.03px;
+    }
+
+
+    .user-name {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: -.01em;
+    }
+
+    .user-country {
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+    }
+
 }
