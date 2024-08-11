@@ -1,0 +1,51 @@
+.stories_item {
+    width: 370px;
+}
+
+.stories_item_content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 26px;
+    padding-right: 27px;
+    background-color: #EDF5F7;
+}
+
+.stories_item_info {
+    display: flex;
+    align-items: center;
+    gap: 10.88px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: #5C8692;
+
+    .pattern {
+        width: 19.79px;
+        height: 0;
+        border: 2px solid #272D32;
+    }
+}
+
+.stories_item_title {
+    width: 289.87px;
+    margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    color: #141414;
+}
+
+.stories_item_desc {
+    width: 317.57px;
+    margin-top: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: .02em;
+    color: #555555;
+}

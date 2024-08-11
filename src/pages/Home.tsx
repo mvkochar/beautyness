@@ -1,5 +1,7 @@
 import React from 'react'
 import "./css/Home.css"
+import PostsList from '../components/PostsList/PostsList'
+import StoriesItem from '../components/StoriesItem/StoriesItem'
 
 const Home = () => {
   return (
@@ -300,7 +302,23 @@ const Home = () => {
       <section className="home-blog">
         <div className="above text-center">Our Blog</div>
         <h2 className="bl-title text-center">Latest Updates</h2>
-        <div className="home-blog-box d-f jc-sb"></div>
+        <div className="home-blog-box d-f jc-sb">
+          {
+            PostsList.filter((elem) => elem.id < 3).map((post) => {
+              return (
+                <StoriesItem
+                  id={post.id}
+                  image={post.image}
+                  date={post.date}
+                  authorName={post.authorName}
+                  title={post.title}
+                  description={post.description}
+                />
+              )
+            })
+          }
+        </div>
+        <a href="" className="home-blog-more">View more stories</a>
       </section>
     </>
   )
