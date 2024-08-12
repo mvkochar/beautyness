@@ -1,0 +1,174 @@
+.about-main {
+    padding-top: 118px;
+    padding-bottom: 115px;
+    background: url('/public/images/main-bg.png') no-repeat;
+}
+
+.about-main .about-main-above {
+    text-align: center;
+    color: #fff;
+}
+
+.about-main .about-main-title {
+    width: 649px;
+    margin: 8px auto;
+    margin-bottom: 0;
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+}
+
+.about-main-link {
+    display: block;
+    width: 250px;
+    margin: 32px auto;
+    margin-bottom: 0;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    background-color: #5C8692;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .12em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about-features {
+    max-width: 659px;
+    margin: 130px auto;
+    margin-bottom: 0;
+}
+
+.about-features-title {
+    margin-top: 9px;
+    text-align: center;
+}
+
+.about-features-content {
+    margin-top: 45px;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.about-features-item {
+    gap: 32px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #D3D3D3;
+
+    dl {
+        dt {
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
+            font-size: 22px;
+            color: #141414;
+        }
+
+        dd {
+            max-width: 458px;
+            margin-top: 8px;
+            font-family: "Manrope", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.75;
+            color: #555555;
+        }
+    }
+
+    &:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+}
+
+.about-style {
+    margin-top: 129px;
+    padding: 137px 360px;
+    background-color: #EBF3F5;
+}
+
+.about-style-content {
+    max-width: 653px;
+    padding: 74px 72px;
+    background-color: #1E2C30;
+}
+
+.about-style .about-style-above {
+    color: #fff;
+}
+
+.about-style .about-style-title {
+    min-width: 460px;
+    margin-top: 9px;
+    color: #fff;
+}
+
+.about-style .about-style-desc {
+    max-width: 508px;
+    margin-top: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.75;
+    color: #fff;
+}
+
+.about-team {
+    margin-top: 129px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.about-team .about-team-title {
+    max-width: 659px;
+    margin: 9px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.about-team-box {
+    margin-top: 33px;
+}
+
+.about-follow {
+    margin-top: 150px;
+    margin-left: 359px;
+    margin-right: 360px;
+    margin-bottom: 275px;
+}
+
+.about-follow .about-follow-title {
+    width: 265px;
+    margin-top: 9px;
+}
+
+.about-follow-desc {
+    width: 495px;
+    margin-top: 22px;
+    margin-bottom: 53px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.75;
+    color: #555555;
+}
+
+.about-follow-link {
+    display: block;
+    width: 249px;
+    margin: 60px auto;
+    margin-bottom: 0;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    background-color: #5C8692;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .12em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}

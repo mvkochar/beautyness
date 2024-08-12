@@ -1,0 +1,47 @@
+.team-member {
+    width: 370px;
+}
+
+.team-member-info {
+    margin-top: 25px;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-align: center;
+}
+
+.team-member-name {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #141414;
+}
+
+.team-member-pos {
+    margin-top: 4px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.54;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #5C8692;
+}
+
+.team-member-desc {
+    width: 336px;
+    margin: 8px auto;
+    margin-bottom: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555555;
+}
+
+.team-member-social {
+    width: fit-content;
+    margin: 23px auto;
+    margin-bottom: 0;
+    gap: 30px;
+}
