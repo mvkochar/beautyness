@@ -75,3 +75,41 @@ body {
   color: #141414;
 }
 
+.page-main {
+  padding-top: 118px;
+  padding-bottom: 115px;
+  background: url('/public/images/main-bg.png') no-repeat;
+}
+
+.page-main .page-main-above {
+  text-align: center;
+  color: #fff;
+}
+
+.page-main .page-main-title {
+  width: 649px;
+  margin: 8px auto;
+  margin-bottom: 0;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+}
+
+.page-main-link {
+  display: block;
+  width: 250px;
+  margin: 32px auto;
+  margin-bottom: 0;
+  padding-top: 23px;
+  padding-bottom: 24px;
+  background-color: #5C8692;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: .12em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}

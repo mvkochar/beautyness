@@ -7,10 +7,10 @@ import Testimonials from '../components/Testimonials/Testimonials'
 const About = () => {
     return (
         <>
-            <main className='about-main'>
-                <div className="above about-main-above">Short story about us</div>
-                <h1 className="bl-title about-main-title">The big story behind, our beautyness center</h1>
-                <a href="" className="about-main-link">Make a reservation</a>
+            <main className='page-main'>
+                <div className="above page-main-above">Short story about us</div>
+                <h1 className="bl-title page-main-title">The big story behind, our beautyness center</h1>
+                <a href="" className="page-main-link">Make a reservation</a>
             </main>
             <section className='about-features'>
                 <div className="above text-center">Our Values</div>

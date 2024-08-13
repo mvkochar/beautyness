@@ -1,0 +1,199 @@
+.services-content {
+    margin-top: 146px;
+    margin-left: 361px;
+    margin-right: 361px;
+
+    .services-content-title {
+        width: 659px;
+        margin: 9px auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+.services-content-bl {
+    background: url("/public/images/home-services-bg.png") no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.services-content-item {
+    gap: 68px
+}
+
+.services-content-item .service-info {
+    gap: 12px;
+}
+
+.services-content-item .service-title,
+.services-content-item .service-divider,
+.services-content-item .service-price {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #141414;
+}
+
+.services-content-item .service-divider {
+    font-weight: 400;
+    letter-spacing: .05em;
+}
+
+.services-content-item .service-from,
+.services-content-item .service-note {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: .02em;
+    color: #555555;
+}
+
+.services-content-item .service-price {
+    font-weight: 400;
+}
+
+.services-content-item .service-note {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.services-content-item .service-link {
+    display: block;
+    width: 249px;
+    margin-top: 35px;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    border: 2px solid #5C8692;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .12em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.services-content .content-item-box {
+    flex-direction: column;
+    gap: 18px;
+}
+
+.services-content .content-item-bl {
+    padding-bottom: 22px;
+    border-bottom: 1px solid #9BB7BF;
+}
+
+.services-content-item .service-img {
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+.services-content .content-bl-last {
+    background-size: 15% 10%;
+    background-position-x: 48%;
+    background-position-y: 97%;
+}
+
+.services-callout {
+    margin-top: 131px;
+    padding-top: 131px;
+    padding-bottom: 131px;
+    background-color: #EBF3F5;
+}
+
+.services-callout-title {
+    max-width: 626px;
+    margin: 9px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.services-callout-desc {
+    width: 644px;
+    margin: 14px auto;
+    margin-bottom: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.75;
+    color: #555555;
+}
+
+.services-callout-content {
+    width: 455px;
+    margin: 37px auto;
+    margin-bottom: 0;
+    border: 1px solid #95BFCB;
+}
+
+.services-callout-contact {
+    width: 288px;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff;
+    flex-direction: column;
+    gap: 18px;
+
+    .callout-contact-item {
+        gap: 19px;
+
+        dl {
+            font-family: "Manrope", sans-serif;
+            color: #141414;
+            line-height: 1.5;
+
+            dt {
+                font-weight: 900;
+                font-size: 14px;
+                letter-spacing: .08em;
+                text-transform: uppercase;
+            }
+
+            dd {
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.services-callout-offer {
+    width: 167px;
+    padding: 12px 34px;
+    background-color: #1E2C30;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    color: #fff;
+
+    .callout-offer-title {
+        margin-bottom: 6px;
+        font-size: 13px;
+        line-height: 1.75;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        &::before,
+        &::after {
+            content: "";
+            display: block;
+            width: 5px;
+            height: 0;
+            border: 1px solid #fff;
+        }
+    }
+
+    .callout-offer-subtitle {
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 1.75;
+        letter-spacing: .02em;
+        text-align: center;
+    }
+}
