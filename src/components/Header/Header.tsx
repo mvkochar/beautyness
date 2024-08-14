@@ -13,10 +13,16 @@ const Header = () => {
                 <nav>
                     <ul className="header-nav d-f">
                         <li className="header-nav-item"><Link to="/">Home</Link></li>
-                        <li className="header-nav-item nav-item-drop">Pages</li>
+                        <li className="header-nav-item nav-item-drop">
+                            Pages
+                            <ul className="drop-list">
+                               <li><Link to="/team">Team</Link></li>
+                               <li><Link to="/blog">Blog</Link></li>
+                            </ul>    
+                        </li>
                         <li className="header-nav-item"><Link to="/about">About</Link></li>
                         <li className="header-nav-item"><Link to="/services">Services</Link></li>
-                        <li className="header-nav-item"><a href="">Contact</a></li>
+                        <li className="header-nav-item"><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
                 <div className="header-social d-f">

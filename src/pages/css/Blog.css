@@ -1,0 +1,13 @@
+.blog-main {
+    padding-top: 130px;
+    padding-bottom: 129px;
+}
+
+.blog-content {
+    margin-top: 142px;
+    margin-bottom: 120px;
+    margin-left: 360px;
+    margin-right: 360px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}

@@ -1,0 +1,24 @@
+.team-main {
+    padding-top: 199px;
+    padding-bottom: 199px;
+}
+
+.team-content {
+    margin-top: 129px;
+    margin-bottom: 151px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.team-content .team-content-title {
+    max-width: 659px;
+    margin: 9px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.team-box {
+    margin-top: 33px;
+    flex-wrap: wrap;
+    gap: 33px;
+} 

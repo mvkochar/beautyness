@@ -21,11 +21,20 @@
 .header-nav {
     list-style-type: none;
     gap: 20px;
+    position: relative;
 }
 
 .header-nav .drop-list {
     list-style-type: none;
-    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    padding: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
 }
 
 .header-nav-item,
@@ -58,6 +67,12 @@
     }
 }
 
+.nav-item-drop:hover > .drop-list {
+   opacity: 1;
+}
+
+
+
 .header-social {
     margin-left: 32px;
     gap: 30px;
@@ -76,4 +91,3 @@
     text-transform: uppercase;
     color: #fff;
 }
-
