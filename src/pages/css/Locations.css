@@ -1,0 +1,66 @@
+.locations-main {
+    padding-top: 130px;
+    padding-bottom: 129px;
+}
+
+.locations-content {
+    margin-top: 127px;
+    margin-left: 360px;
+    margin-right: 360px;
+    margin-bottom: 120px;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.locations-content-bl {
+    gap: 129px;
+}
+
+.locations-content .location-title {
+    margin-top: 9px;
+}
+
+.locations-content .location-info {
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.locations-content .location-info-item {
+    gap: 25px;
+}
+
+.locations-content .location-info-item dl {
+    color: #141414;
+
+    dt {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    dd {
+        margin-top: 8px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: .06em;
+        text-transform: uppercase;
+    }
+}
+
+.locations-link {
+    display: block;
+    width: 250px;
+    margin-top: 50px;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    background-color: #7A9CA5;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .12em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}

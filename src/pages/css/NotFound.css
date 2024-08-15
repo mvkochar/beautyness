@@ -1,0 +1,49 @@
+.nf-main {
+    padding-top: 130px;
+    padding-bottom: 129px;
+}
+
+.nf-content {
+    padding-top: 233px;
+    padding-bottom: 269px;
+    background: url('/public/images/nf-content-bg.png') no-repeat;
+    text-align: center;
+}
+
+.nf-content-title {
+    margin-top: 39px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: .02em;
+    color: #141414;
+}
+
+.nf-content-desc {
+    width: 563px;
+    margin: 16px auto;
+    margin-bottom: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.6;
+    letter-spacing: -.01em;
+    color: #555555;
+}
+
+.nf-content-link {
+    display: block;
+    width: 250px;
+    margin: 39px auto;
+    margin-bottom: 0;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    background-color: #7A9CA5;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .12em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}

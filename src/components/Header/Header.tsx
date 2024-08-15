@@ -18,6 +18,7 @@ const Header = () => {
                             <ul className="drop-list">
                                <li><Link to="/team">Team</Link></li>
                                <li><Link to="/blog">Blog</Link></li>
+                               <li><Link to="/locations">Locations</Link></li>
                             </ul>    
                         </li>
                         <li className="header-nav-item"><Link to="/about">About</Link></li>
