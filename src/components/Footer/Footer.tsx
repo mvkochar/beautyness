@@ -31,10 +31,10 @@ const Footer = () => {
             <div className="footer-bar-title">Utility Pages</div>
             <ul className="footer-bar-list">
               <li><a href="">Start here</a></li>
-              <li><a href="">Style gude</a></li>
+              <li><Link to="/style-guide">Style guide</Link></li>
               <li><Link to="/nf">404 not found</Link></li>
               <li><Link to="/protected">Password protected</Link></li>
-              <li><a href="">Licenses</a></li>
+              <li><Link to="/license">Licenses</Link></li>
               <li><a href="">Changelog</a></li>
             </ul>
           </div>

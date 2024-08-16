@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Blog, Contact, Home, Locations, NotFound, Protected, Services, Team } from '../../pages'
+import { About, Blog, Contact, Home, License, Locations, NotFound, Protected, Services, StyleGuide, Team } from '../../pages'
 
 const Main = () => {
   return (
@@ -36,6 +36,14 @@ const Main = () => {
       <Route
         path='protected'
         element={<Protected />}
+      />
+      <Route
+        path='style-guide'
+        element={<StyleGuide/>}
+      />
+      <Route
+        path='license'
+        element={<License/>}
       />
       <Route
         path='/*'
