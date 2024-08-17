@@ -1,6 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Blog, Contact, Home, License, Locations, NotFound, Protected, Services, StyleGuide, Team } from '../../pages'
+import {
+  About, Blog, Changelog, Contact, Home, License, Locations, NotFound, Protected,
+  Services, StyleGuide, Team, TeamSingle
+} from '../../pages'
 
 const Main = () => {
   return (
@@ -39,11 +42,19 @@ const Main = () => {
       />
       <Route
         path='style-guide'
-        element={<StyleGuide/>}
+        element={<StyleGuide />}
       />
       <Route
         path='license'
-        element={<License/>}
+        element={<License />}
+      />
+      <Route
+        path='changelog'
+        element={<Changelog />}
+      />
+      <Route
+        path='team-member/:id'
+        element={<TeamSingle />}
       />
       <Route
         path='/*'

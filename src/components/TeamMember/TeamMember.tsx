@@ -1,5 +1,6 @@
 import React from 'react'
 import './TeamMember.css'
+import { Link } from 'react-router-dom'
 
 type TeamMemberProps = {
     id: number
@@ -12,7 +13,7 @@ type TeamMemberProps = {
 const TeamMember = ({ id, image, memberName, memberPos, description }: TeamMemberProps) => {
     return (
         <div className='team-member'>
-            <div><img src={image} alt="team-member" /></div>
+            <div><Link to={`/team-member/${id}`}><img src={image} alt="team-member" /></Link></div>
             <div className="team-member-info">
                 <h4 className="team-member-name">{memberName}</h4>
                 <div className="team-member-pos">{memberPos}</div>

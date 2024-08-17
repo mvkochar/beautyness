@@ -1,0 +1,60 @@
+.ts-main {
+    padding-top: 199px;
+    padding-bottom: 199px;
+}
+
+.ts-member-name {
+    margin-top: 7px;
+}
+
+.ts-content {
+    margin-top: 128px;
+    margin-left: 360px;
+    margin-right: 361px;
+    margin-bottom: 127px;
+}
+
+.ts-member-desc {
+    width: 533px;
+    margin-top: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ts-member-contact {
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 15px;
+
+    .member-contact-item {
+        gap: 34px;
+
+        .contact-item-title {
+            font-size: 22px;
+        }
+    }
+}
+
+.ts-member-link {
+    display: block;
+    width: 250px;
+    margin-top: 30px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    background-color: #7A9CA5;
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.ts-member-social {
+    margin-top: 30px;
+    gap: 30px;
+}

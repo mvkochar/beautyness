@@ -35,7 +35,7 @@ const Footer = () => {
               <li><Link to="/nf">404 not found</Link></li>
               <li><Link to="/protected">Password protected</Link></li>
               <li><Link to="/license">Licenses</Link></li>
-              <li><a href="">Changelog</a></li>
+              <li><Link to="/changelog">Changelog</Link></li>
             </ul>
           </div>
           <div>

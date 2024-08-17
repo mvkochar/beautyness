@@ -9,5 +9,7 @@ import NotFound from "./NotFound";
 import Protected from "./Protected";
 import StyleGuide from "./StyleGuide";
 import License from "./License";
+import Changelog from "./Changelog";
+import TeamSingle from "./TeamSingle";
 
-export { Home, About, Services, Team, Contact, Blog, Locations, NotFound, Protected, StyleGuide, License }
+export { Home, About, Services, Team, Contact, Blog, Locations, NotFound, Protected, StyleGuide, License, Changelog, TeamSingle }
